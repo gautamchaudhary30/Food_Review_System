@@ -1,0 +1,69 @@
+.body {
+    padding: 0;
+    margin: 0;
+    height: 0vh;
+    position: relative;
+    /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/groovepaper_%402X.png"); */
+    background-size: auto;
+    
+    &::before {
+      /* // Vertical line */
+      position: absolute;
+      content: '';
+      z-index: -10;
+      top: 0rem;
+      left: 50%;
+      bottom: 0rem;
+      width: 1px;
+      background-color: #ccc;
+    }
+  }
+  
+  .container {
+   min-height: 150vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .image {
+    width: 100%;
+    height: 50vh;
+    background-image: url("../../Image/pexels-ash-376464.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .box {
+    position: absolute;
+    z-index: -1;
+    top: 2rem;
+    bottom: -2rem;
+    left: 6rem;
+    background-size: cover;
+    background-image: url("../../Image/pexels-susanne-jutzeler-sujufoto-1693027.jpg");
+    right: -2rem;
+    /* background-color: #F29938; */
+  }
+  
+  .pattern {
+    position: absolute;
+    top: 25vh;
+    bottom: -7rem;
+    left: 55%;
+    right: -8rem;
+    background-size: cover;
+    z-index: -1;
+    background-image: url("../../Image/pexels-chan-walrus-958545.jpg");
+    /* background: #27A4FC; */
+  }
+  
+  .headline {
+    position: absolute;
+    top: -1rem;
+    left: 1rem;
+    color: white;
+    font-size: 4rem;
+    font-family: "helvetica", "arial";
+    text-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.2);
+  }

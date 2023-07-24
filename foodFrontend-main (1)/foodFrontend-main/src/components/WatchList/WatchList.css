@@ -1,0 +1,17 @@
+.poster{
+    width: 800px;
+    height: 600px;
+    margin-bottom: 10px;
+}
+.cardContainer{
+    /* flex-direction: row; */
+    display: block;
+    text-align: center;
+    justify-content: center;
+    /* width: 20%; */
+    margin-top: 10px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin: 40px 30px;
+    /* height: 100px; */
+}

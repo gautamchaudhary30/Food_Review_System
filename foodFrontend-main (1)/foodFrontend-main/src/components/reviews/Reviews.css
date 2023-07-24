@@ -1,0 +1,29 @@
+.imageReview{
+    width: 30%;
+    height: 50%;
+}
+.foodreview{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    /* width: 50%; */
+}
+/* .foodreview > hr {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+} */
+.foodreview > h3{
+    font-size: 70px;
+    
+}
+.foodreview > h3 > span{
+    color: #d69a0d;
+    
+}
+.foodreview > h2{
+    font-size: 35px;
+    margin-bottom: -60px;
+}

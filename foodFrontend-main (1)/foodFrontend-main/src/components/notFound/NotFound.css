@@ -1,0 +1,6 @@
+.errorPage{
+    text-align: center;
+}
+.errorPage > h1{
+    font-size: 100px;
+}
